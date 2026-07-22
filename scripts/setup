@@ -1,0 +1,6 @@
+Paste the following:
+
+#!/bin/bash
+
+/usr/local/bin/mise trust /workspaces/$DEVPOD_WORKSPACE_ID/mise.toml && /usr/local/bin/mise install
+
